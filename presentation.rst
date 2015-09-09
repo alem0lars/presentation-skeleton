@@ -1,45 +1,21 @@
-:title: RFID penetration testing
-:author: Alessandro Molari <molari.alessandro@gmail.com> (CeSeNA)
+:title: PRESENTATION-NAME
+:author: AUTHOR-NAME <AUTHOR-EMAIL> (GROUP-NAME)
 
-:data-transition-duration: 1000
+:data-transition-duration: DEFAULT-TRANSITION-DURATION
 :skip-help: true
 
 
 .. Content ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-----
-
-RFID penetration testing
-========================
-
-*did you ever want to steal your colleague badge?*
-
-``┌∩┐(◕_◕)┌∩┐``
-
-----
-
-.. include::
-   /archive/documents/Presentations/rfid-pentesting/partials/toc.rst
-
-----
-
-.. include::
-   /archive/documents/Presentations/rfid-pentesting/partials/macrosteps.rst
-
-----
-
-.. include::
-   /archive/documents/Presentations/rfid-pentesting/partials/theory.rst
-
-----
-
-.. include::
-   /archive/documents/Presentations/rfid-pentesting/partials/tools.rst
+.. TODO: put your slides here
 
 .. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
 .. Roles definition ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+.. role::  imp
+   :class: important
 
 .. role::  strike
    :class: strike

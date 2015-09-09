@@ -1,6 +1,6 @@
-# RFID penetration testing
+# PRESENTATION-NAME
 
-Presentation "RFID penetration testing" by Alessandro Molari
+Presentation "PRESENTATION-NAME" by AUTHOR-NAME
 
 ## LICENSE
 
