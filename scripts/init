@@ -19,7 +19,7 @@ fi
 echo "→ Fixing git stuff"
 git remote rename origin upstream
 git remote add origin "$1"
-git branch -u origin/master
+git push -u origin master
 
 echo "→ Initializing the python virtual environment in '${_venv_path}'"
 if [[ -d "${_venv_path}" ]]; then
