@@ -25,7 +25,7 @@ echo "→ Initializing the python virtual environment in '${_venv_path}'"
 if [[ -d "${_venv_path}" ]]; then
   rm -R "${_venv_path}"
 fi
-virtualenv -p "/usr/bin/python3" ".venv"
+virtualenv -p "python3" ".venv"
 if [[ ! -s "${_venv_activate}" ]]; then
   echo "Error: ${_venv_activate} initialization failed"
   exit -1
