@@ -8,7 +8,7 @@ _resources_path="${_root_path}/resources"
 _template_path="${_root_path}/template"
 _build_path="${_root_path}/build"
 _presentation_main_name="presentation.rst"
-_target_dir_path="${_root_path}"
+_target_dir_path="${_root_path}/build"
 
 
 cd "${_root_path}"
