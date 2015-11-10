@@ -8,6 +8,7 @@ _resources_path="${_root_path}/resources"
 _template_path="${_root_path}/template"
 _build_path="${_root_path}/build"
 _presentation_main_name="presentation.rst"
+_target_dir_path="${_root_path}"
 
 
 cd "${_root_path}"
@@ -19,11 +20,14 @@ if [[ ! -s "${_venv_activate}" ]]; then
 fi
 source "${_venv_activate}"
 
-echo "→ Generating images from PlantUML diagrams"
-plantuml "${_resources_path}/*.puml"
+if which plantuml > /dev/null; then
+  echo "→ Generating images from PlantUML diagrams"
+  plantuml "${_resources_path}/*.puml"
+fi
 
 echo "→ Building the presentation"
 hovercraft \
+  -b \
   -t "${_template_path}" \
   "${_presentation_main_name}" \
-  "${_build_path}"
+  "${_target_dir_path}"
